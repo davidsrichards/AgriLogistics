@@ -1,9 +1,9 @@
 import GlobalNavigation from "../GlobalComponent/GlobalNavigationBar";
 import Scroller from "../GlobalComponent/Scroller/Scroller";
 import NavigationItems from "../NavigationBar/NavigationItems";
-import PricingCmpt from "./PricingCmpt/PricingCmpt";
+import ContactCmpt from "./ContactCmpt/ContactCmpt";
 
-function PricingComponent() {
+function ContactComponent() {
   return (
     <div>
       <GlobalNavigation
@@ -11,10 +11,10 @@ function PricingComponent() {
         items={<NavigationItems />}
         position={"fixed"}
       />
-      <PricingCmpt />
+      <ContactCmpt />
       <Scroller />
     </div>
   );
 }
 
-export default PricingComponent;
+export default ContactComponent;

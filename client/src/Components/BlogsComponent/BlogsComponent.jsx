@@ -1,20 +1,22 @@
+import Footer from "../Footer/Footer";
 import GlobalNavigation from "../GlobalComponent/GlobalNavigationBar";
 import Scroller from "../GlobalComponent/Scroller/Scroller";
 import NavigationItems from "../NavigationBar/NavigationItems";
-import PricingCmpt from "./PricingCmpt/PricingCmpt";
+import BlogsCmpt from "./BlogsCmpt/BlogsCmpt";
 
-function PricingComponent() {
+function BlogsComponent() {
   return (
     <div>
       <GlobalNavigation
         backgroundColor={"#1f1f26"}
-        items={<NavigationItems />}
         position={"fixed"}
+        items={<NavigationItems />}
       />
-      <PricingCmpt />
+      <BlogsCmpt />
       <Scroller />
+      <Footer />
     </div>
   );
 }
 
-export default PricingComponent;
+export default BlogsComponent;

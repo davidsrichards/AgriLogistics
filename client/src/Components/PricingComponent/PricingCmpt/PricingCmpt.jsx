@@ -10,7 +10,7 @@ import ThirdComponent from "../ThirdComponent/ThirdComponent";
 
 function PricingCmpt() {
   return (
-    <div>
+    <div className="mt-12">
       <FirstComponent />
       <SecondComponent />
       <ThirdComponent />

@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <div className="nav-a">
-        <Link>Contact Us</Link>
+        <NavLink to={"/contact"}>Contact Us</NavLink>
       </div>
     </>
   );

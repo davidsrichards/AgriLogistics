@@ -1,4 +1,5 @@
 import GlobalNavigation from "../../GlobalComponent/GlobalNavigationBar";
+import Scroller from "../../GlobalComponent/Scroller/Scroller";
 import NavigationBar from "../../NavigationBar/NavigationBar";
 import NavigationItems from "../../NavigationBar/NavigationItems";
 import AboutComponent from "../AboutComponent";
@@ -12,6 +13,7 @@ function AboutUsComponent() {
         items={<NavigationItems />}
         position={"fixed"}
       />
+      <Scroller />
     </div>
   );
 }

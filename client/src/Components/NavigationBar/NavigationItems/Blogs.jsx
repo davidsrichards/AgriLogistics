@@ -4,7 +4,7 @@ function Blogs() {
   return (
     <>
       <div className="nav-a">
-        <Link>Blogs</Link>
+        <NavLink to={"/blogs"}>Blogs</NavLink>
       </div>
     </>
   );

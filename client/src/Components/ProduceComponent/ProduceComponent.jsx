@@ -1,4 +1,5 @@
 import GlobalNavigation from "../GlobalComponent/GlobalNavigationBar";
+import Scroller from "../GlobalComponent/Scroller/Scroller";
 import NavigationItems from "../NavigationBar/NavigationItems";
 import ProduceCmpt from "./ProduceCmpt";
 
@@ -11,6 +12,7 @@ function ProduceComponents() {
         position={"fixed"}
       />
       <ProduceCmpt />
+      <Scroller />
     </div>
   );
 }
