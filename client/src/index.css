@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-a {
+  @apply text-gray-300 hover:bg-primary hover:text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out hover:text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
+}
+
+/* home components */
+
+.footer-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+.first-card {
+  background: url("https://www.nutrinnovateaustralia.com.au/medias/slide/big/13/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
+.fourth {
+  background: url("https://media.istockphoto.com/id/1092110072/photo/tractor-spraying-a-field-of-soybean.jpg?b=1&s=612x612&w=0&k=20&c=es0Hy5iEUgRpmr0P67d-rMSRxHIPFPKleQ5-YzAN47I=");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.fourth .inner {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0JBJ_QJxeN4WrPTG54Wz2upNZyq5umhd7kYWNhrcVFopI5Au");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* about components */
+.first-about {
+  background: url("https://images.pexels.com/photos/1719669/pexels-photo-1719669.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+  background-position: cen;
+}
+.fourth-about {
+  background: url("https://images.pexels.com/photos/3283450/pexels-photo-3283450.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/*  */
+
+/* produce */
+.first-produce {
+  background: url("https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+/* pricing */
+.first-pricing {
+  background: url("https://images.pexels.com/photos/87626/paprika-vegetables-green-food-87626.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: bottom;
+}
+
+/* */
+.third-pricing {
+  background: url("https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: bottom;
+}
+/*  */
+.fifth-pricing {
+  background: url("https://images.pexels.com/photos/40020/spike-wheat-cereals-grain-40020.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+/*  */
+.seventh-pricing {
+  background: url("https://images.pexels.com/photos/1738520/pexels-photo-1738520.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+/*  */
+
+/* https://media.istockphoto.com/id/1092110072/photo/tractor-spraying-a-field-of-soybean.jpg?b=1&s=612x612&w=0&k=20&c=es0Hy5iEUgRpmr0P67d-rMSRxHIPFPKleQ5-YzAN47I=
+pepper: https://images.pexels.com/photos/87626/paprika-vegetables-green-food-87626.jpeg?auto=compress&cs=tinysrgb&w=600
+ */
+
+.normal {
+  font-weight: 50;
+  font-style: normal;
+  font-family: "Open Sans Light";
+}
+
+.headers {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+
+.second-card-fruit {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px 5px #4747470b;
+  backdrop-filter: blur(7.1px);
+  box-sizing: border-box;
+  @apply text-[1.5rem] font-semibold;
+}
+
+.produce-fruits {
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px 5px #4747470b;
+  backdrop-filter: blur(7.1px);
+  box-sizing: border-box;
+}
+
+.primary-text {
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+.track {
+  @apply tracking-tighter text-[#1f1f26]  text-[14px] font-normal;
+}
+
+.active {
+  @apply bg-primary text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
+}
+
+.trans {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+body {
+  display: flex;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+}
+
+* {
+  @apply transition-all duration-500 ease-in-out;
+}
+/*"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhHkPlqPU5t2lF9FTsGpcJlZ-zeLVlGuPa1ry4wM8MFKLqCgBq */
