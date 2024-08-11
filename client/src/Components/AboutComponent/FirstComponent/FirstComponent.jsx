@@ -1,8 +1,31 @@
+import { motion, useInView, useAnimation } from "framer-motion";
+import { useEffect, useRef } from "react";
+
 function FirstComponent() {
+  const ref = useRef();
+  const inView = useInView(ref, { once: true }); // Set once to true to animate only once
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [inView, controls]);
+
   return (
     <div className="first-about w-full h-screen grid md:grid-cols-2 -z-10">
-      <div className=" justify-start self-center mt-14 py-12 px-12 text-white space-y-6">
-        <h1 className="font-extrabold text-[1.8rem] text-white">ABOUT US</h1>
+      <motion.div
+        ref={ref}
+        variants={{
+          hidden: { opacity: 0, y: 75 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        initial="hidden"
+        animate={controls}
+        transition={{ duration: 0.5, delay: 0.75 }}
+        className="justify-start self-center mt-14 p-12 py-10 overflow-hidden text-white space-y-6 bg-neutral-400 bg-opacity-50 rounded-lg"
+      >
+        <h1 className="font-extrabold text-[1.8rem] ">ABOUT US</h1>
         <p className=" tracking- font-semibold">
           We are one of the largest agricultural producers in the Southern
           States. Serving as a vital link between farmers and consumers, we take
@@ -25,7 +48,7 @@ function FirstComponent() {
           miscellaneous vegetables and fruits, just as well as nuts and other
           produce…
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -4,14 +4,13 @@ import FourthComponent from "./FourthComponent/FourthComponent";
 import SecondComponent from "./SecondComponent/SecondComponent";
 import ThirdComponent from "./ThirdComponent/ThirdComponent";
 
-function AboutComponent() {
+function AboutComponent({ ref }) {
   return (
-    <div className="about mt-12">
+    <div className="about mt-12" ref={ref}>
       <FirstComponent />
       <SecondComponent />
       <ThirdComponent />
       <FourthComponent />
-      <Footer />
     </div>
   );
 }

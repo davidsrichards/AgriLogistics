@@ -1,5 +1,12 @@
+import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import { FaRegTimesCircle } from "react-icons/fa";
+import { MdKeyboardArrowDown } from "react-icons/md";
+
 function GlobalNavigation({ backgroundColor, items, position }) {
+  const [inVisible, setIsVisible] = useState(false);
+  const [arrowChecked, setArrowChecked] = useState(false);
   return (
     <nav
       className={
@@ -23,12 +30,78 @@ function GlobalNavigation({ backgroundColor, items, position }) {
               <h3 className="font-normal">processors</h3>
             </div>
             <div className="bg-white text-primary flex items-center justify-center px-3 md:hidden w-12 h-10 rounded-md mx-auto">
-              <IoMenu className="md:text-[0rem] text-[2rem]" />
+              {!inVisible && (
+                <IoMenu
+                  className="md:text-[0rem] text-[2rem] cursor-pointer"
+                  onClick={() => setIsVisible((prev) => !prev)}
+                />
+              )}
+              {inVisible && (
+                <FaRegTimesCircle
+                  className="md:text-[0rem] text-[2rem] cursor-pointer"
+                  onClick={() => setIsVisible((prev) => !prev)}
+                />
+              )}
             </div>
           </div>
         </div>
         <div className="md:block hidden  ">{items}</div>
       </div>
+      {inVisible && (
+        <ul
+          role="list"
+          className="bg-gray-400 bg-opacity-75 absolute top-[11rem] p-4 w-full divide-y-2 divide-slate-500 flex flex-col md:hidden"
+        >
+          <Link
+            to={"#home"}
+            className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+          >
+            Home
+          </Link>
+          <div className="flex items-center justify-between">
+            <Link
+              to={"#about"}
+              className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+            >
+              About
+            </Link>
+            <MdKeyboardArrowDown
+              className={`text-primary  text-[1.8rem] cursor-pointer ${
+                arrowChecked ? "rotate-180" : "rotate-0"
+              }`}
+              onClick={() => setArrowChecked((prev) => !prev)}
+            />
+          </div>
+          <Link
+            to={"#produce"}
+            className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+          >
+            Produce
+          </Link>
+          <Link
+            to={"#contact"}
+            className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+          >
+            Contact Us
+          </Link>
+          {arrowChecked && (
+            <div className="flex flex-col">
+              <Link
+                to={"#services"}
+                className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+              >
+                Services
+              </Link>
+              <Link
+                to={"#reviews"}
+                className="p-2 hover:bg-gray-400 cursor-pointer  font-semibold hover:text-neutral-200"
+              >
+                Customers
+              </Link>
+            </div>
+          )}
+        </ul>
+      )}
     </nav>
   );
 }

@@ -1,0 +1,21 @@
+.about-image-container {
+  border-block: 2px solid;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  user-select: none;
+}
+
+.about-inner {
+  flex-shrink: 0;
+  width: 300px;
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}

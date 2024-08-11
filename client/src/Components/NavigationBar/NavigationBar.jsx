@@ -5,9 +5,9 @@ import GlobalNavigation from "../GlobalComponent/GlobalNavigationBar";
 function NavigationBar() {
   return (
     <GlobalNavigation
-      backgroundColor={""}
+      backgroundColor={"#1f1f26"}
       items={<NavigationItems />}
-      position={"absolute"}
+      position={"fixed"}
     />
   );
 }

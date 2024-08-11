@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaLongArrowAltUp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Scroller() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,11 +38,16 @@ function Scroller() {
   return (
     <div>
       {isScrolled && (
-        <div className="fixed bottom-12 bg-primary p-3 rounded-full text-white right-6 cursor-pointer">
+        <Link
+          to={"#home"}
+          className="fixed bottom-12 bg-primary p-3 rounded-full text-white right-6 cursor-pointer"
+        >
           <FaLongArrowAltUp
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
           />
-        </div>
+        </Link>
       )}
     </div>
   );

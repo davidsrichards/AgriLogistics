@@ -2,7 +2,7 @@ import Slide from "./Slide";
 
 function Images() {
   return (
-    <div className="grid md:grid-cols-4  gap-4 transition-all duration-500 ease-in-out ">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2  gap-4 transition-all duration-500 ease-in-out ">
       <Slide
         image={
           "https://template65073.motopreview.com/mt-demo/65000/65073/mt-content/uploads/2017/09/mt-0994-home-img17.jpg"

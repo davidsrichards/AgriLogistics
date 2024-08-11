@@ -2,18 +2,23 @@ import { Link } from "react-router-dom";
 
 function FirstComponent() {
   return (
-    <div className="text-[1rem] font-semibold flex flex-col gap-4">
-      <h1 className="text-[2.3rem] font-bold">Contacts</h1>
-      <div>
-        <p>Address: 22 St. Black Road Raleigh</p>
+    <div className="flex flex-col gap-4  font-normal contact justify-center items-center p-2">
+      <div className="flex flex-col gap-6">
+        <h1 className="text-[#52514c] text-[45px] ">Contacts</h1>
+        <h2 className="text-[22px] text-[#52514c]">
+          Have questions or need assistance? Reach out to our dedicated support
+          team anytime.
+        </h2>
+        <p>Address: 123 Agri Lane, Farmville, USA</p>
         <p>We are open: Mon - Sun, 24/7</p>
-        <p>Phone: +1 234 567 7891</p>
+        <p>Phone: (123) 456-7890</p>
         <p>
-          E-mail:{" "}
+          E-mail:
           <Link to={"#"} className="text-primary font-bold">
-            farmland@demolink.org
+            support@agrilogistics.com
           </Link>
         </p>
+        <p>Stay Connected</p>
       </div>
     </div>
   );

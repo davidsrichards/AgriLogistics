@@ -3,7 +3,7 @@ import SecondComponent from "./SecondComponent/SecondComponent";
 
 function ContactCmpt() {
   return (
-    <div className="mt-[8rem] border-4 p-12">
+    <div className=" py-12">
       <FirstComponent />
       <SecondComponent />
     </div>

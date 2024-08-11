@@ -1,8 +1,7 @@
 import ImageReviews from "./ImageReviews";
-
 function ProduceReview() {
   return (
-    <div className="grid md:grid-cols-3 p-4 mx-auto gap-6 py-16">
+    <div className="grid md:grid-cols-3 p-4 mx-auto gap-6 py-16 customer-image-container">
       <ImageReviews
         image={
           "https://template65073.motopreview.com/mt-demo/65000/65073/mt-content/uploads/2017/09/mt-0994-produce-img1.jpg"

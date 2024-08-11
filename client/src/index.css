@@ -6,8 +6,21 @@
   @apply text-gray-300 hover:bg-primary hover:text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out hover:text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
 }
 
-.active {
+.activ {
   @apply bg-primary text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
+}
+
+.font {
+  font-family: sans-serif;
+  color: #181819;
+  line-height: 1.4;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contact {
+  font-family: "Lato", sans-serif;
 }
 
 /* home components */
@@ -69,46 +82,11 @@
 
 /* produce */
 .first-produce {
-  background: url("https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background: url("https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   background-position: top;
-}
-/* https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600 */
-
-/* pricing */
-.first-pricing {
-  background: url("https://images.pexels.com/photos/87626/paprika-vegetables-green-food-87626.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: bottom;
-}
-
-/* */
-.third-pricing {
-  background: url("https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: bottom;
-}
-/*  */
-.fifth-pricing {
-  background: url("https://images.pexels.com/photos/40020/spike-wheat-cereals-grain-40020.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-}
-/*  */
-.seventh-pricing {
-  background: url("https://images.pexels.com/photos/1738520/pexels-photo-1738520.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
 }
 
 /*  */
@@ -124,10 +102,6 @@
 }
 
 /*  */
-
-/* https://media.istockphoto.com/id/1092110072/photo/tractor-spraying-a-field-of-soybean.jpg?b=1&s=612x612&w=0&k=20&c=es0Hy5iEUgRpmr0P67d-rMSRxHIPFPKleQ5-YzAN47I=
-pepper: https://images.pexels.com/photos/87626/paprika-vegetables-green-food-87626.jpeg?auto=compress&cs=tinysrgb&w=600
- */
 
 .normal {
   font-weight: 50;
@@ -186,3 +160,27 @@ body {
   @apply transition-all duration-500 ease-in-out;
 }
 /*"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhHkPlqPU5t2lF9FTsGpcJlZ-zeLVlGuPa1ry4wM8MFKLqCgBq */
+
+@media (prefers-reduced-motion: no-preference) {
+  .stock-ticker {
+    display: flex;
+    justify-content: space-between;
+    /*  --gap: 20px;
+    gap: var(--gap); */
+    align-items: center;
+    overflow: hidden;
+    user-select: none;
+  }
+  .inner {
+    flex-shrink: 0;
+    animation: scroll 5s linear infinite;
+    width: 300px;
+    /* gap: var(--gap); */
+  }
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}

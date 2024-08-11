@@ -1,5 +1,5 @@
 function SecondComponent() {
-  return <div className="second-contact h-screen"></div>;
+  return <div className=""></div>;
 }
 
 export default SecondComponent;

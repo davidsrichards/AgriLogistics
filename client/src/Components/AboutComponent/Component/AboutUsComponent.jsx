@@ -3,20 +3,15 @@ import Scroller from "../../GlobalComponent/Scroller/Scroller";
 import NavigationBar from "../../NavigationBar/NavigationBar";
 import NavigationItems from "../../NavigationBar/NavigationItems";
 import AboutComponent from "../AboutComponent";
+import React from "react";
 
-function AboutUsComponent() {
+const AboutUsComponent = React.forwardRef((props, ref) => {
   return (
-    <div>
+    <div ref={ref}>
       <AboutComponent />
-      <GlobalNavigation
-        backgroundColor={"#1f1f26"}
-        items={<NavigationItems />}
-        position={"fixed"}
-      />
-      <Scroller />
     </div>
   );
-}
+});
 
 export default AboutUsComponent;
 /* "#1f1f26" */
