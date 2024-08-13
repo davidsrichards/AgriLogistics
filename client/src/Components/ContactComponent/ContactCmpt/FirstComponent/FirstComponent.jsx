@@ -13,7 +13,7 @@ function FirstComponent() {
         <p>We are open: Mon - Sun, 24/7</p>
         <p>Phone: (123) 456-7890</p>
         <p>
-          E-mail:
+          E-mail:&nbsp;
           <Link to={"#"} className="text-primary font-bold">
             support@agrilogistics.com
           </Link>

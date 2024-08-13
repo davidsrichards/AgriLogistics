@@ -23,7 +23,7 @@ function FirstComponent() {
         initial="hidden"
         animate={controls}
         transition={{ duration: 0.5, delay: 0.75 }}
-        className="justify-start self-center mt-14 p-12 py-10 overflow-hidden text-white space-y-6 bg-neutral-400 bg-opacity-50 rounded-lg"
+        className="justify-start self-center  overflow-hidden text-white space-y-6 bg-neutral-400 bg-opacity-50 rounded-lg p-4"
       >
         <h1 className="font-extrabold text-[1.8rem] ">ABOUT US</h1>
         <p className=" tracking- font-semibold">
