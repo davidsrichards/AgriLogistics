@@ -1,0 +1,60 @@
+.hide-nav {
+  animation: hide-nav linear;
+  animation-timeline: scroll();
+}
+
+@keyframes hide-nav {
+  0% {
+    height: 20px;
+  }
+  10% {
+    height: 0px;
+  }
+}
+
+/*  */
+.gobal-main-nav {
+  animation: gobal-main-nav linear;
+  animation-timeline: scroll();
+}
+
+@keyframes gobal-main-nav {
+  0% {
+    padding-top: 2rem;
+  }
+  2% {
+    padding-top: 0rem;
+  }
+}
+.m {
+  color: #27272d;
+}
+
+/*  */
+
+.nav-address {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #9a9d94;
+  font-size: 13px;
+  line-height: 2.9;
+  letter-spacing: 0px;
+}
+
+.nav-contact {
+  color: #9a9d94;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-date {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #9a9d94;
+  font-size: 13px;
+  line-height: 2.9;
+  letter-spacing: 0px;
+}

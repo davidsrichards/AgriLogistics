@@ -5,7 +5,7 @@ import SecondComponent from "./SecondComponent/SecondComponent";
 function ProduceCmpt() {
   return (
     <div>
-      <FirstComponent />
+      {/*     <FirstComponent /> */}
       <SecondComponent />
     </div>
   );

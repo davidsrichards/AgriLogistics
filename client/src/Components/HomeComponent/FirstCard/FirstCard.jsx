@@ -17,7 +17,7 @@ function FirstCard() {
       >
         <div className="mt-12 tracking-tighter flex flex-col md:-space-y-6 -space-y-2">
           <h1 className="lg:text-[5rem] md:text-[3.5rem] text-[2rem] text-white headers">
-            An American Agribusiness...
+            Nigeria Agribusiness...
           </h1>
           <h1 className="md:text-[5rem] text-white">
             Built for Today's World!

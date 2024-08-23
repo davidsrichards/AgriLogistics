@@ -13,6 +13,7 @@ import Services from "./Services/Services";
 import { useDispatch, useSelector } from "react-redux";
 import { startSliceAction } from "../Redux/Features/Slice";
 import CustomersReviews from "./CustomerReviews/CustomersReviews";
+import GlobalInformation from "./GlobalComponent/GlobalInformation";
 
 function Component() {
   const disatch = useDispatch();
@@ -50,16 +51,16 @@ function Component() {
 
   return (
     <div>
+      <GlobalInformation />
       <NavigationBar />
       <HomeComponent ref={HomeRef} />
-      <AboutUsComponent ref={AboutRef} />
       <ProduceComponents ref={ProduceRef} />
       <CustomersReviews ref={CuestomerRevRef} />
-      <ContactComponent ref={ContactRef} />
+      {/*  <ContactComponent /> */}
       <Services ref={ServicesRef} />
-
+      <AboutUsComponent ref={AboutRef} />
       <Scroller />
-      <Footer />
+      <Footer ref={ContactRef} />
     </div>
   );
 }

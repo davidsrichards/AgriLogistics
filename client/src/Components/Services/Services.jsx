@@ -4,7 +4,9 @@ import GlobalServices from "./GlobalServices";
 const Services = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="flex flex-col gap-8 py-24">
-      <h1 className=" self-center text-[3rem]">Our Services For Farmers:</h1>
+      <h1 className=" self-center text-[2.5rem] font-semibold">
+        Our Services For Farmers:
+      </h1>
       <div className="lg:grid lg:grid-cols-4 gap-4 lg:p-4 p-2 ">
         <GlobalServices
           image={

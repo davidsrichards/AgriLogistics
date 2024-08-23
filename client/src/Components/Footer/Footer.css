@@ -1,0 +1,37 @@
+.footer {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Vollkorn", serif;
+  color: #52514c;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+.footer-h {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+.footer-p {
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Vollkorn", serif;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+.footer-news {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}

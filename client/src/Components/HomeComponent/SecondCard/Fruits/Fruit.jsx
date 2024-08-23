@@ -4,7 +4,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 function Fruit() {
   return (
-    <div className="stock-ticker gap-4 w-[60rem]">
+    <div className="stock-ticker gap-4">
       {" "}
       <div className="flex gap-4">
         <Fruits

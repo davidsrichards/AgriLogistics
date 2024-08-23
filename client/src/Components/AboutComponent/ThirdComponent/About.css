@@ -1,5 +1,4 @@
 .about-image-container {
-  border-block: 2px solid;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -10,12 +9,23 @@
 
 .about-inner {
   flex-shrink: 0;
-  width: 300px;
-  animation: scroll 5s linear infinite;
+  width: fit-content;
+  animation: scroll 20s ease-in-out infinite;
+  /*   animation-delay: 2s; */
 }
 
 @keyframes scroll {
   to {
     transform: translateX(calc(-100% - 20px));
   }
+}
+
+.theme-text {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #9a9d94;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
 }

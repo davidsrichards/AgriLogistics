@@ -1,0 +1,28 @@
+.fourth-h {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  color: #52514c;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+.fourth-p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Vollkorn", serif;
+  color: #52514c;
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+
+.fourth-p2 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lato", sans-serif;
+  color: #9a9d94;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}

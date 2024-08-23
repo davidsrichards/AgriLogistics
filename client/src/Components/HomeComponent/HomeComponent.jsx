@@ -8,9 +8,9 @@ const HomeComponent = React.forwardRef((props, ref) => {
   return (
     <div className="home w-full py-24" ref={ref}>
       <FirstCard />
-      <SecondCard />
-      <ThirdCard />
       <FourthCard />
+      <SecondCard />
+      {/*   <ThirdCard /> */}
     </div>
   );
 });

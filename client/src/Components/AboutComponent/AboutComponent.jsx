@@ -7,7 +7,7 @@ import ThirdComponent from "./ThirdComponent/ThirdComponent";
 function AboutComponent({ ref }) {
   return (
     <div className="about mt-12" ref={ref}>
-      <FirstComponent />
+      {/*       <FirstComponent /> */}
       <SecondComponent />
       <ThirdComponent />
       <FourthComponent />

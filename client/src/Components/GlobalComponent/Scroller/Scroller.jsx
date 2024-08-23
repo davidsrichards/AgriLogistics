@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import { FaLongArrowAltUp } from "react-icons/fa";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { startSliceAction } from "../../../Redux/Features/Slice";
 
 function Scroller() {
+  const dispatch = useDispatch();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isUp, setIsUp] = useState(false);
 
   /*  useEffect(() => {
     const handeScrolled = () => {
@@ -23,6 +27,7 @@ function Scroller() {
     if (position > 200) {
       setIsScrolled(true);
     } else {
+      setIsUp(true);
       setIsScrolled(false);
     }
   };
@@ -34,6 +39,14 @@ function Scroller() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  //
+
+  useEffect(() => {
+    if (isUp) {
+      dispatch(startSliceAction("home"));
+    }
+  }, [isUp]);
 
   return (
     <div>
