@@ -10,10 +10,9 @@ const Footer = React.forwardRef((props, ref) => {
     <>
       <footer
         ref={ref}
-        className="bg-[#0b1803] w-full bottom-0 grid lg:grid-cols-3 justify-items-center p-4 lg:gap-10 gap-6 transition-all duration-300 ease-in-out"
+        className="bg-[#0b1803] w-full bottom-0 grid lg:grid-cols-3  p-4 lg:gap-10 gap-6 transition-all duration-300 ease-in-out"
       >
         <FooterImage />
-        {/*        <About /> */}
         <Produce />
         <Contact />
       </footer>

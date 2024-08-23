@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 function Produce() {
   return (
-    <div className="text-white flex flex-col gap-2">
+    <div className="text-white flex flex-col gap-2 self-start">
       <h1 className="font-bold text-[1.3rem] pb-4">Contact us</h1>
       <p className="footer-item flex items-center gap-2">
         <div className="text-white text-[1.2rem]">

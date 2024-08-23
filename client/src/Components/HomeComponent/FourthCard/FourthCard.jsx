@@ -5,8 +5,8 @@ function FourthCard() {
     <div className="grid md:grid-cols-2 ">
       <div className="flex  justify-center flex-col gap-5 bg-[#edecda] p-6">
         <h1 className="fourth-h text-[1.8rem]">
-          WELCOME TO
-          <span className="font-bold  text-primary">AGROLOGISTICS</span>
+          WELCOME TO &nbsp;
+          <span className="font-bold  text-primary">GRAIN PLUS</span>
         </h1>
         <img
           src="https://template66538.motopreview.com/mt-demo/66500/66538/mt-content/uploads/2018/04/mt-0826-title-img.png"
@@ -18,12 +18,12 @@ function FourthCard() {
           French culture of Grain production and cultivation…
         </p>
         <p className="fourth-p2">
-          Your Trusted Partner in Crops and Grains At AgriLogistics, we
-          understand the importance of delivering fresh, high-quality crops and
-          grains to your doorstep. Our commitment to excellence ensures that
-          whether you are a farmer looking to distribute your produce or a
-          customer seeking premium grains, you can rely on us to meet your needs
-          efficiently and reliably.
+          Your Trusted Partner in Crops and Grains At Grain Plus, we understand
+          the importance of delivering fresh, high-quality crops and grains to
+          your doorstep. Our commitment to excellence ensures that whether you
+          are a farmer looking to distribute your produce or a customer seeking
+          premium grains, you can rely on us to meet your needs efficiently and
+          reliably.
         </p>
       </div>
       <div className="fade-in bg-[url(https://images.pexels.com/photos/2135677/pexels-photo-2135677.jpeg?auto=compress&cs=tinysrgb&w=600)] bg-center bg-cover object-cover h-screen"></div>
@@ -60,7 +60,7 @@ function FourthCard() {
           here!
         </p>
         <p className="fourth-p2">
-          Our range of red, white and rose Grains selection goes beyond any
+          Our range of Green, white and rose Grains selection goes beyond any
           state-level comparison and our team of Grain-tasting sommeliers will
           always get you a perfect pick!
         </p>

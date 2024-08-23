@@ -24,7 +24,18 @@ function GlobalNavigation({ backgroundColor, items, position }) {
             src="https://template65073.motopreview.com/mt-demo/65000/65073/mt-content/uploads/2017/08/mt-0994-logo.png"
             alt="Logo"
           />
-          <div className="text-white ml-6 flex flex-col items-start justify-center gap-6">
+          <div className="text-white ml-6 md:flex hidden flex-col items-start justify-center gap-6">
+            <div className=" tracking-tight">
+              <h2 className="font-bold lg:text-[1.5rem] md:text-[1.7rem] text-[1.3rem] fourth-h text-primary uppercase">
+                Grain Plus
+              </h2>
+              <h3 className="font-normal fourth-p text-[#328d4a]">
+                logistics Limited
+              </h3>
+            </div>
+          </div>
+          {/* small screen */}
+          <div className="text-white ml-6 md:hidden flex flex-col items-start justify-center gap-6 absolute right-8">
             <div className=" tracking-tight">
               <h2 className="font-bold lg:text-[1.5rem] md:text-[1.7rem] text-[1.3rem] fourth-h text-primary uppercase">
                 Grain Plus
@@ -48,6 +59,7 @@ function GlobalNavigation({ backgroundColor, items, position }) {
               )}
             </div>
           </div>
+          {/*  */}
         </div>
         <div className="md:block hidden  ">{items}</div>
       </div>

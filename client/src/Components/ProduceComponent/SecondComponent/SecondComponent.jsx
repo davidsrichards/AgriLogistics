@@ -18,7 +18,7 @@ function SecondComponent() {
         }
         title={"Grain and Oilseed"}
         content={
-          "We are one of the largest owners of productive farmland in South America. We currently own over 127k hectares and lease nearly 50k hectares each year for the production of a wide range of agricultural commodities including soybeans, corn, wheat, sunflower and cotton, among others. In Argentina, our farming activities are mainly…."
+          "We are one of the largest owners of productive farmland in Nigeria. We currently own over 127k hectares and lease nearly 50k hectares each year for the production of a wide range of agricultural commodities including soybeans, corn, wheat, sunflower and cotton, among others. In Argentina, our farming activities are mainly…."
         }
       />
       <ProduceFruits

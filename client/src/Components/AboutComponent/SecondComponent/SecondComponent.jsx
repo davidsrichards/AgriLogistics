@@ -4,7 +4,7 @@ function SecondComponent() {
   return (
     <div className="p-4 bg-[#f1f3f5] pb-12  flex flex-col">
       <h1 className="text-[2.5rem] font-semibold  pb-12 mt-6 self-center">
-        Why choose AgroLogistics
+        Why choose <span className="fourth-h text-primary">Grain Plus</span>
       </h1>
       <Items />
     </div>
