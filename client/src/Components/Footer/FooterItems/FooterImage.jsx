@@ -8,9 +8,10 @@ function FooterImage() {
           className="left-4 w-16 h-16  transition-all duration-300 ease-in-out"
         />
         <div className="text-white -space-y-1  text-nowrap transition-all duration-300 ease-in-out footer-item ">
-          <h2 className="font-bold  text-[1.4rem]">AgriLogistics</h2>
-          <h3 className="font-normal">largest agricultural</h3>
-          <h3 className="font-normal">processors</h3>
+          <h2 className="font-bold fourth-h text-primary text-[1.8rem]">
+            Grain Plus
+          </h2>
+          <h3 className="font-normal text-[#328d4a]">Logistics Limited</h3>
         </div>
       </div>
       <p className="footer-h">
