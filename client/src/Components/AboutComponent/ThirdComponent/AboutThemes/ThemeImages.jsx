@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function ThemeImages({ image, name, position, about }) {
   return (
-    <div className="mx-auto flex flex-col items-center justify-center gap-10 trans second-card-fruit p-12 about-inner">
+    <div className="mx-auto flex flex-col items-center justify-center gap-10 trans second-card-fruit p-12 about-inne">
       <img src={image} alt="" className="rounded-full object-cover" />
       <div className="flex flex-col items-center justify-center tracking-tight">
         <h1 className="text-[1.5rem] font-bold">{name}</h1>
