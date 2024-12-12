@@ -3,90 +3,90 @@
 @tailwind utilities;
 
 .nav-a {
-  @apply text-gray-300 hover:bg-primary hover:text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out hover:text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
+    @apply text-gray-300 hover:bg-primary hover:text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out hover:text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
 }
 
 .activ {
-  @apply bg-primary text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
+    @apply bg-primary text-white px-6 py-2 rounded-md  font-semibold transition-all duration-500 ease-in-out text-black  lg:text-[1rem] text-[0.7rem] text-nowrap;
 }
 
 .font {
-  font-family: sans-serif;
-  color: #181819;
-  line-height: 1.4;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
+    font-family: sans-serif;
+    color: #181819;
+    line-height: 1.4;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .contact {
-  font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* home components */
 
 .footer-item {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
 }
 
 /* home */
 .first-card {
-  background: url("https://www.nutrinnovateaustralia.com.au/medias/slide/big/13/3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  width: 100%;
+    background: url('https://www.nutrinnovateaustralia.com.au/medias/slide/big/13/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
 }
 .fourth {
-  background: url("https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
+    background: url('https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 /*  */
 
 .fourth .inner {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0JBJ_QJxeN4WrPTG54Wz2upNZyq5umhd7kYWNhrcVFopI5Au");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0JBJ_QJxeN4WrPTG54Wz2upNZyq5umhd7kYWNhrcVFopI5Au');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* about components */
 .first-about {
-  background: url("https://images.pexels.com/photos/1719669/pexels-photo-1719669.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  object-fit: cover;
-  background-position: center;
+    background: url('https://images.pexels.com/photos/1719669/pexels-photo-1719669.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-position: center;
 }
 .fourth-about {
-  background: url("https://images.pexels.com/photos/3283450/pexels-photo-3283450.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-  z-index: -1;
+    background: url('https://images.pexels.com/photos/3283450/pexels-photo-3283450.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 /*  */
 
 /* produce */
 .first-produce {
-  background: url("https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: top;
+    background: url('https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
 }
 
 /*  */
@@ -94,93 +94,94 @@
 /* contact */
 
 .second-contact {
-  background: url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=600");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-position: left;
+    background: url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: left;
 }
 
 /*  */
 
 .normal {
-  font-weight: 50;
-  font-style: normal;
-  font-family: "Open Sans Light";
+    font-weight: 50;
+    font-style: normal;
+    font-family: 'Open Sans Light';
 }
 
 .headers {
-  font-family: "Roboto Slab", serif;
-  box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
 }
 
 .second-card-fruit {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0px 0px 5px 5px #4747470b;
-  backdrop-filter: blur(7.1px);
-  box-sizing: border-box;
-  @apply text-[1.5rem] font-semibold;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 5px #4747470b;
+    backdrop-filter: blur(7.1px);
+    box-sizing: border-box;
+    @apply text-[1.5rem] font-semibold;
 }
 
 .produce-fruits {
-  border-radius: 16px;
-  box-shadow: 0px 0px 5px 5px #4747470b;
-  backdrop-filter: blur(7.1px);
-  box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 5px #4747470b;
+    backdrop-filter: blur(7.1px);
+    box-sizing: border-box;
 }
 
 .primary-text {
-  font-weight: 700;
-  font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
 }
 .track {
-  @apply tracking-tighter text-[#1f1f26]  text-[14px] font-normal;
+    @apply tracking-tighter text-[#1f1f26]  text-[14px] font-normal;
 }
 
 .trans {
-  @apply transition-all duration-500 ease-in-out;
+    @apply transition-all duration-500 ease-in-out;
 }
 
 body {
-  display: flex;
-  height: 100dvh;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo', sans-serif;
 }
 
 #root {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
 }
 
 * {
-  @apply transition-all duration-500 ease-in-out;
+    @apply transition-all duration-500 ease-in-out;
 }
 /*"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhHkPlqPU5t2lF9FTsGpcJlZ-zeLVlGuPa1ry4wM8MFKLqCgBq */
 
 @media (prefers-reduced-motion: no-preference) {
-  .stock-ticker {
-    display: flex;
-    justify-content: space-between;
-    /*  --gap: 20px;
+    .stock-ticker {
+        display: flex;
+        justify-content: space-between;
+        /*  --gap: 20px;
     gap: var(--gap); */
-    align-items: center;
-    overflow: hidden;
-    user-select: none;
-  }
-  .inner {
-    flex-shrink: 0;
-    animation: scroll 5s linear infinite;
-    width: 300px;
-    /* gap: var(--gap); */
-  }
+        align-items: center;
+        overflow: hidden;
+        user-select: none;
+    }
+    .inner {
+        flex-shrink: 0;
+        animation: scroll 5s linear infinite;
+        width: 300px;
+        /* gap: var(--gap); */
+    }
 }
 
 @keyframes scroll {
-  to {
-    transform: translateX(calc(-100% - 20px));
-  }
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
 }
