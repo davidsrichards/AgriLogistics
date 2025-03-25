@@ -13,19 +13,17 @@ function GlobalInformation() {
       <nav className="top-0 w-full  flex items-center justify-between transition-all duration-300 ease-in-out  absolute bg-[#2e2e35] hide-nav text-slate-300 overflow-hidden z-50 p-3">
         <div className="flex items-center justify-around  w-2/3">
           <div className="nav-address flex items-center justify-center gap-2 ">
-            <FaLocationDot className="text-white" /> 6087 Richmond hwy,
-            Alexandria, VA
+            <FaLocationDot className="text-white" /> Jabi, Abuja Nigeria.
           </div>
           <div className="nav-contact flex items-center justify-center gap-2 hover:text-primary cursor-pointer">
-            <BsFillTelephoneFill className="text-white text-[0.7rem]" /> (123)
-            456-7890
+            <BsFillTelephoneFill className="text-white text-[0.7rem]" /> +234 803605855
           </div>
           <div className="nav-date flex items-center justify-center gap-2">
             <RiTimer2Fill
               className="
           text-white"
             />{" "}
-            Mo-Fr 11:00-00:00, Sa-Sa 15:00-00:00
+            Mo-Fr 8:00 AM - 04:00 PM
           </div>
         </div>
         <div className="flex items-center justify-center gap-3 text-[0.8rem] mr-12">

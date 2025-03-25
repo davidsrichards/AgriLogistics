@@ -11,7 +11,7 @@ function FirstComponent() {
         </h2>
         <p>Address: 123 Agri Lane, Farmville, USA</p>
         <p>We are open: Mon - Sun, 24/7</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Phone: +234 803605855</p>
         <p>
           E-mail:&nbsp;
           <Link to={"#"} className="text-primary font-bold">
